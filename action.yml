@@ -1,4 +1,4 @@
-name: "React Deploy to S3"
+name: "React Deploy to S3 using latest node"
 description: "Build a React.js web app and sync to an AWS S3 repository"
 author: keshav-bohr
 runs:

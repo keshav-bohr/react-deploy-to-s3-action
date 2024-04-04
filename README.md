@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: jeanlescure/react-deploy-to-s3-action@main
+    - uses: keshav-bohr/react-deploy-to-s3-action@latest
       with:
         args: --acl public-read --follow-symlinks --delete
       env:

@@ -10,17 +10,15 @@ Build a React.js web app and sync to an AWS S3 repository
 
 Please consider:
 
-- [Buying me a coffee](https://www.buymeacoffee.com/jeanlescure) ☕
-- Supporting me on [Patreon](https://www.patreon.com/jeanlescure) 🏆
-- Starring this repo on [Github](https://github.com/jeanlescure/react-deploy-to-s3-action) 🌟
+- Starring this repo on [Github](https://github.com/keshav-bohr/react-deploy-to-s3-action) 🌟
 
 ## Usage
 
 This action runs the equivalent of this oversimplified example:
 
 ```sh
-$ yarn
-$ yarn build
+$ npm i
+$ npm run build
 $ aws s3 sync public s3://your.website.com/
  # Optionally
 $ aws cloudfront create-invalidation --distribution-id XYZ --paths /\*
